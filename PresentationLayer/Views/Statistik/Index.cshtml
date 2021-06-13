@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <div class="small-box bg-blue" style="max-height: 150px">
+            <div class="inner" style="text-align: center">
+                <br />
+                <sup style="font-size: 20px"> Kategorilərin ümumi sayı</sup>
+                <br />
+                <span style="font-size:50px"> @ViewBag.ALLKategory </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="small-box bg-red" style="max-height: 150px">
+            <div class="inner" style="text-align: center">
+                <br />
+                <sup style="font-size: 20px">Yazılım Kategorisinin başlıq sayı</sup>
+                <br />
+                <span style="font-size:50px">@ViewBag.YazılKatBasNum </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="small-box bg-green" style="max-height: 150px">
+            <div class="inner" style="text-align: center">
+                <br />
+                <sup style="font-size: 20px">Yazar adında "a" hərfi keçən Yazar sayı</sup>
+                <br />
+                <span style="font-size:50px"> @ViewBag.SertliYazarAdı</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="small-box bg-gray" style="max-height: 150px">
+            <div class="inner" style="text-align: center">
+                <br />
+                <sup style="font-size: 20px">En çox başlığa sahib Kategori adı</sup>
+                <br />
+                <span style="font-size:50px"> @ViewBag.EnCoxBasliq  </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="small-box bg-purple" style="max-height: 150px">
+            <div class="inner" style="text-align: center">
+                <br />
+                <sup style="font-size: 20px">Durumu Aktiv olan Kategorilər</sup>
+                <br />
+                <span style="font-size:50px"> @ViewBag.AktivKategories </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
