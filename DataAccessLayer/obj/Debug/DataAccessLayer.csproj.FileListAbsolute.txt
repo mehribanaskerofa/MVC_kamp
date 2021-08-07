@@ -17,3 +17,15 @@ C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataA
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Add_Writer__about.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Add_Writer__title.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_imageLengh.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_Writer_status.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_Heading_Content_status.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_messageClass.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_date_contact.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_ImageFile.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_Admin.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_Read.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_aboutStatus.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_writerRoles.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_roles.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_admin_roles_elaqe.resources

@@ -17,6 +17,7 @@ namespace PresentationLayer.Controllers
         
         CategoryManager cm = new CategoryManager(new EFCategoryDal());
 
+        [Authorize(Roles="A")]
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();

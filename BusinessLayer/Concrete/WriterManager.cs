@@ -30,6 +30,11 @@ namespace BusinessLayer.Concrete
             return _writerDal.List();
         }
 
+        public Writer GetWriter(string username, string password)
+        {
+            return _writerDal.Get(x => x.WriterMail == username && x.WriterPassword == password);
+        }
+
         public void WriterAdd(Writer writer)
         {
             _writerDal.Insert(writer);
