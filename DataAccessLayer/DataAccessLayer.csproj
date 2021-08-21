@@ -61,6 +61,7 @@
     <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IRolesDal.cs" />
+    <Compile Include="Abstract\ITalentDal.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="EntityFramework\EFLoginDal.cs" />
     <Compile Include="EntityFramework\EFMessageDal.cs" />
     <Compile Include="EntityFramework\EFRolesDal.cs" />
+    <Compile Include="EntityFramework\EFTalentDal.cs" />
     <Compile Include="EntityFramework\EFWriterDal.cs" />
     <Compile Include="Migrations\202106102215215_elaqe_Writer_Content.cs" />
     <Compile Include="Migrations\202106102215215_elaqe_Writer_Content.designer.cs">
@@ -135,6 +137,10 @@
     <Compile Include="Migrations\202108062253203_add_admin_roles_elaqe.designer.cs">
       <DependentUpon>202108062253203_add_admin_roles_elaqe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108072126075_add_talent.cs" />
+    <Compile Include="Migrations\202108072126075_add_talent.designer.cs">
+      <DependentUpon>202108072126075_add_talent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108062253203_add_admin_roles_elaqe.resx">
       <DependentUpon>202108062253203_add_admin_roles_elaqe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108072126075_add_talent.resx">
+      <DependentUpon>202108072126075_add_talent.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

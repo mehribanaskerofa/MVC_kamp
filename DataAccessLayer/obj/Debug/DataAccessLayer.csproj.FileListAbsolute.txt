@@ -29,3 +29,4 @@ C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataA
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_writerRoles.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_roles.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_admin_roles_elaqe.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_talent.resources
