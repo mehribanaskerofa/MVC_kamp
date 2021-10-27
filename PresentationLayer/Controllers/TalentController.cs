@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace PresentationLayer.Controllers
 {
+    [AllowAnonymous]
     public class TalentController : Controller
     {
         // GET: Talent

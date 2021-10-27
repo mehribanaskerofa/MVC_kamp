@@ -83,5 +83,16 @@ namespace PresentationLayer.Controllers
             hm.HeadingDeleteBL(headingvalue);
             return RedirectToAction("Index");
         }
+
+        public ActionResult HeadingsByCategoryID(int id)
+        {
+            var headings = hm.GetListByCategoryBL(id);
+            return View(headings);
+        }
+        public ActionResult HeadingsByWriterID(int id)
+        {
+            var headings = hm.GetListByWriterBL(id);
+            return View(headings);
+        }
     }
 }

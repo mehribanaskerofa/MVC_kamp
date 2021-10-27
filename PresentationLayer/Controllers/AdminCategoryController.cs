@@ -16,8 +16,9 @@ namespace PresentationLayer.Controllers
         // GET: AdminCategory
         
         CategoryManager cm = new CategoryManager(new EFCategoryDal());
+       
 
-        [Authorize(Roles="A")]
+       // [Authorize(Roles="A")]
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();
@@ -74,5 +75,7 @@ namespace PresentationLayer.Controllers
             cm.CategoryUpdate(category);
             return RedirectToAction("Index");
         }
+
+        
     }
 }

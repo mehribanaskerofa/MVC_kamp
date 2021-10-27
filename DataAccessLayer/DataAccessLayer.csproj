@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IAboutDal.cs" />
+    <Compile Include="Abstract\IAdminDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IContactDal.cs" />
     <Compile Include="Abstract\IContentDal.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
     <Compile Include="EntityFramework\EFAboutDal.cs" />
+    <Compile Include="EntityFramework\EFAdminDal.cs" />
     <Compile Include="EntityFramework\EFCategoryDal.cs" />
     <Compile Include="EntityFramework\EFContactDal.cs" />
     <Compile Include="EntityFramework\EFContentDal.cs" />
@@ -141,6 +143,10 @@
     <Compile Include="Migrations\202108072126075_add_talent.designer.cs">
       <DependentUpon>202108072126075_add_talent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109282019176_add_adminStatus.cs" />
+    <Compile Include="Migrations\202109282019176_add_adminStatus.designer.cs">
+      <DependentUpon>202109282019176_add_adminStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -203,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108072126075_add_talent.resx">
       <DependentUpon>202108072126075_add_talent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109282019176_add_adminStatus.resx">
+      <DependentUpon>202109282019176_add_adminStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -56,9 +56,9 @@ to get the desired effect
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->
-                       @*@if (User.IsInRole("A"))
-                       { }*@
+    with font-awesome or any other icon font library -->
+                        @*@if (User.IsInRole("A"))
+        { }*@
                         <li class="nav-item has-treeview">
                             <a href="/AdminCategory/Index" class="nav-link ">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -69,7 +69,7 @@ to get the desired effect
                             </a>
 
                         </li>
-                       
+
                         <li class="nav-item">
                             <a href="/Heading/Index" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
@@ -80,7 +80,7 @@ to get the desired effect
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="/Writer/Index" class="nav-link">
+                            <a href="/Writer/Index/" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     Yazarlar
@@ -90,7 +90,7 @@ to get the desired effect
 
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Chart/Index/" class="nav-link">
                                 <i class="nav-icon fas fa-chart-pie"></i>
                                 <p>
                                     Charts
@@ -99,19 +99,19 @@ to get the desired effect
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="/Chart/Index/" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Chart 1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
+                                    <a href="/Chart/WriterHeading/" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Chart 2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
+                                    <a href="/Chart/WriterContent/" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Chart 3</p>
                                     </a>
@@ -128,8 +128,18 @@ to get the desired effect
                             </a>
 
                         </li>
-                        @if (User.IsInRole("A"))
-                        {
+                        <li class="nav-item has-treeview">
+                            <a href="/Report/MessageReport/" class="nav-link">
+                                <i class="nav-icon fas fa-bars"></i>
+                                <p>
+                                    Hesabat
+
+                                </p>
+                            </a>
+
+                        </li>
+                        @*@if (User.IsInRole("A"))
+        {*@
                         <li class="nav-item has-treeview">
                             <a href="/Contact/Index/" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
@@ -139,9 +149,9 @@ to get the desired effect
                                 </p>
                             </a>
 
-                        </li>}
+                        </li>@*}*@
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Content/GetAllContent/" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>
                                     Yazılar
@@ -151,20 +161,39 @@ to get the desired effect
 
                         </li>
                         <li class="nav-item">
-                            <a href="pages/calendar.html" class="nav-link">
+                            <a href="/Authorization/Index/" class="nav-link">
                                 <i class="nav-icon fas fa-calendar-alt"></i>
                                 <p>
-                                    Yetkilendirme
+                                    Səlahiyyətlər
                                 </p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/gallery.html" class="nav-link">
+                            <a href="/Gallery/Index/" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p>
                                     Galeriya
                                 </p>
                             </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Talent/Index/" class="nav-link">
+                                <i class="nav-icon fas fa-tree"></i>
+                                <p>
+                                    TalentCard
+
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Test/SweetAlert/" class="nav-link">
+                                <i class="nav-icon far fa-map"></i>
+                                <p>
+                                    Sweet Alert
+                                </p>
+                            </a>
+
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="/ErrorPage/Page404/" class="nav-link">
@@ -176,7 +205,7 @@ to get the desired effect
 
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Home/HomePage/" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Sayta get
@@ -185,7 +214,7 @@ to get the desired effect
 
                         </li>
                         <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
+                            <a href="/Login/LogOut/" class="nav-link">
                                 <i class="nav-icon fas fa-door-closed"></i>
                                 <p>
                                     Çıxış

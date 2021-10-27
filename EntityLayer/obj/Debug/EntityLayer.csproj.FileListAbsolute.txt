@@ -1,6 +1,8 @@
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityLayer.dll.config
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityLayer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityLayer.dll.CodeAnalysisLog.xml
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityLayer.dll.lastcodeanalysissucceeded
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityFramework.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\EntityLayer\bin\Debug\EntityFramework.xml

@@ -5,8 +5,9 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
-
+<br />
+<h1> Categories</h1>
+<br />
 <table class=" table table-bordered">
     <tr>
         <th>ID</th>
@@ -25,11 +26,11 @@
             <td>@item.CategoryStatus</td>
             <td><a href="/AdminCategory/DeleteCategory/@item.CategoryID" class="btn btn-danger">Sil</a></td>
             <td><a href="/AdminCategory/UpdateCategory/@item.CategoryID" class="btn btn-warning">Yenilə</a></td>
-            <td><a href="#" class="btn btn-primary">Başlıqlar</a></td>
+            <td><a href="/Heading/HeadingsByCategoryID/@item.CategoryID" class="btn btn-primary">Başlıqlar</a></td>
 
         </tr>
     }
 
 </table>
 <br />
-<a href="/Category/AddCategory" class="btn btn-danger">Kategori əlavə et</a>
+<a href="/AdminCategory/AddCategory/" class="btn btn-danger">Əlavə et</a>

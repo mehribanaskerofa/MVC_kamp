@@ -37,17 +37,23 @@ namespace BusinessLayer.Concrete
 
         public Content GetByIDBL(int id)
         {
-            throw new NotImplementedException();
+            return _contentDal.Get(x => x.WriterID == id);
         }
 
-        public List<Content> GetListBL()
+        public List<Content> GetListBL(string p)
         {
-            return _contentDal.List();
+            return _contentDal.List(x=>x.ContentValue.Contains(p));
         }
 
         public List<Content> GetListByHeadingIDBL(int id)
         {
             return _contentDal.List(x => x.HeadingID == id);
+        }
+
+        public List<Content> GetListByWriterBL(int id)
+        {
+
+            return _contentDal.List(x => x.WriterID == id);
         }
     }
 }

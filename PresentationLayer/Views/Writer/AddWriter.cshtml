@@ -8,7 +8,7 @@
 
 <h2>AddWriter</h2>
 
-@using (Html.BeginForm("AddWriter", "Writer", FormMethod.Post))
+@using (Html.BeginForm("AddWriter", "Writer", FormMethod.Post,new { @enctype = "multipart/form-data" }))
 {
 <div class="form-group">
     @Html.Label("Yazar adı")
@@ -28,7 +28,8 @@
     @Html.ValidationMessageFor(x => x.WriterPassword)
     <br />
     @Html.Label("Yazar şəkil linki")
-    @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+    <input type="file" name="WriterImage"/>
+    @*@Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })*@
     @Html.ValidationMessageFor(x => x.WriterImage)
     <br />
     @Html.Label("Yazar Title")

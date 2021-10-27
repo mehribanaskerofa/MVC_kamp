@@ -2,7 +2,7 @@
 @model List<Message>
 
 <div class="col-md-3">
-    <a href="/Message/AddNewMessage/" class="btn btn-primary btn-block mb-3">Yeni Mesaj yarat </a>
+    <a href="/Message/AddNewMessage/" class="btn btn-primary btn-block mb-3">Mesaj yarat </a>
     <div class="card">
         <div class="card-header">
             <h3 class="card-title">Seçimlər</h3>
@@ -23,9 +23,9 @@
                 <li class="nav-item active">
                     <a href="/Message/Inbox/" class="nav-link">
                         <i class="fas fa-inbox"></i> Gələn mesajlar
-                        <span class="badge bg-primary float-right">@Model.Count</span>
+                        @*<span class="badge bg-primary float-right">@ViewBag.receiverMail</span>*@
 
-                        <span class="badge bg-red float-right">@Model.Count(x => x.Read == false)</span>
+                        <span class="badge bg-red float-right">@ViewBag.unReadMessage</span>
 
 
                     </a>
@@ -39,6 +39,7 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="far fa-file-alt"></i> Drafts
+                        <span class="badge bg-primary float-right">@ViewBag.draft</span>
                     </a>
                 </li>
                 <li class="nav-item">

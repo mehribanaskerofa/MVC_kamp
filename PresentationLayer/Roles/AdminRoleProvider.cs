@@ -44,10 +44,7 @@ namespace PresentationLayer.Roles
             //var admininfo = rolesManager.GetRoles();
             var admin = c.Admins.FirstOrDefault(y => y.AdminUserName == username);
             var writer = c.Writers.FirstOrDefault(d => d.WriterMail == username);
-
-            
-
-            if (admin != null)
+           if (admin != null)
             {
                 return new string[] { admin.AdminRole };
             }

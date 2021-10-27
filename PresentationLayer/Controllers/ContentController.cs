@@ -23,5 +23,11 @@ namespace PresentationLayer.Controllers
             var contentvalues = cm.GetListByHeadingIDBL(id);
             return View(contentvalues);
         }
+
+        public ActionResult GetAllContent(string p="")
+        {
+            var values = cm.GetListBL(p);
+            return View(values);
+        }
     }
 }

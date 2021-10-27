@@ -4,7 +4,7 @@
     ViewBag.Title = "GetInboxMessageDetails";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-getinboxdetails
+
 <body class="hold-transition sidebar-mini">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -13,7 +13,7 @@ getinboxdetails
                 <div class="col-sm-6">
                     <h1>Gələn Mesaj detayları</h1>
                 </div>
-              
+
             </div>
         </div><!-- /.container-fluid -->
     </section>
@@ -21,7 +21,7 @@ getinboxdetails
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-              @Html.Action("MessageListMenu","Contact")
+                @Html.Action("MessageListMenu", "Contact")
                 <!-- /.col -->
                 <div class="col-md-9">
                     <div class="card card-primary card-outline">
@@ -40,43 +40,45 @@ getinboxdetails
                                 <br />
                                 <h6>
                                     Mail: @*@Html.DisplayFor(x=>x.SenderMail)*@ @Model.SenderMail
-                                    <span class="mailbox-read-time float-right">@*@DateTime.Parse(Html.DisplayFor(x=>x.MessageDate).ToString()).ToShortDateString()*@ 
-                                    @Model.MessageDate.ToString("dd-MMM-yyyy")</span>
-                                </h6>
-                            </div>
-                            <!-- /.mailbox-read-info -->
-                            <div class="mailbox-controls with-border text-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Delete">
-                                        <i class="far fa-trash-alt"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Reply">
-                                        <i class="fas fa-reply"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
-                                        <i class="fas fa-share"></i>
-                                    </button>
-                                </div>
-                                <!-- /.btn-group -->
-                                <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
-                                    <i class="fas fa-print"></i>
+                                    <span class="mailbox-read-time float-right">
+                                        @*@DateTime.Parse(Html.DisplayFor(x=>x.MessageDate).ToString()).ToShortDateString()*@
+                                    @Model.MessageDate.ToString("dd-MMM-yyyy")
+                                </span>
+                            </h6>
+                        </div>
+                        <!-- /.mailbox-read-info -->
+                        <div class="mailbox-controls with-border text-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Delete">
+                                    <i class="far fa-trash-alt"></i>
+                                </button>
+                                <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Reply">
+                                    <i class="fas fa-reply"></i>
+                                </button>
+                                <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
+                                    <i class="fas fa-share"></i>
                                 </button>
                             </div>
-                            <!-- /.mailbox-controls -->
-                            <div class="mailbox-read-message">
-                                <p>@*@Html.DisplayFor(x => x.MessageContent)*@ @Model.MessageContent</p>
-                            </div>
-
+                            <!-- /.btn-group -->
+                            <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
+                                <i class="fas fa-print"></i>
+                            </button>
                         </div>
-                        
-                        }
+                        <!-- /.mailbox-controls -->
+                        <div class="mailbox-read-message">
+                            <p>@*@Html.DisplayFor(x => x.MessageContent)*@ @Model.MessageContent</p>
+                        </div>
+
                     </div>
-                    <!-- /.card -->
+
+                    
                 </div>
-                <!-- /.col -->
+                <!-- /.card -->
             </div>
-            <!-- /.row -->
+            <!-- /.col -->
         </div>
-    </section>
+        <!-- /.row -->
+    </div>
+</section>
 </body>
 

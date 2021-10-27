@@ -1,8 +1,8 @@
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.CodeAnalysisLog.xml
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.lastcodeanalysissucceeded
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityLayer.dll
@@ -10,11 +10,8 @@ C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\Entit
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityLayer.dll.config
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.elaqe_Writer_Content.resources
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Add_Writer__about.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Add_Writer__title.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_imageLengh.resources
@@ -30,3 +27,9 @@ C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataA
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_roles.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_admin_roles_elaqe.resources
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_talent.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_adminStatus.resources
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
