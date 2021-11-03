@@ -1,0 +1,46 @@
+﻿
+
+@using EntityLayer.Concrete
+@model List<Heading>
+@{
+    ViewBag.Title = "HeadingsByCategoryID";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class=" table table-bordered margin:10px">
+    <tr>
+        <th>ID</th>
+        <th>Başlıq adı</th>
+        <th>Tarix</th>
+        <th>Status</th>
+        <th>Yazar adi</th>
+        <th>Kateqoriya adi</th>
+        <th>Sil</th>
+        <th>Yenilə</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.HeadingID</td>
+            <td>@item.HeadingName</td>
+            <td>@item.HeadingDate</td>
+            <td>@item.HeadingStatus</td>
+            <td>@item.Writer.WriterName</td>
+            <td>@item.Category.CategoryName</td>
+            <td><a href="/Heading/DeleteHeading/@item.HeadingID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Heading/EditHeading/@item.HeadingID" class="btn btn-warning">Yenilə</a></td>
+
+
+        </tr>
+    }
+
+</table>
+<br />
+<a href="/Writer/Index/" class="btn btn-danger"> Yazarlar</a>
+
+
+
+
+

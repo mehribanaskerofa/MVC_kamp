@@ -1,0 +1,73 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{ string status = "";}
+@{ string statusButton = "";}
+
+<h2>Haqqımızda məlumat səhifəsi</h2>
+
+@Html.Action("AboutPartial", "About")
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Haqqımda</th>
+        <th>Aktiv & Passiv</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (item.AboutStatus == true)
+        {
+            status = "Pasif Yap";
+            statusButton = "btn btn-danger";
+        }
+        if (item.AboutStatus == false)
+        {
+            status = "Aktif Yap";
+            statusButton = "btn btn-warning";
+        }
+       
+        <tr>
+            <th>@item.AboutID</th>
+            <td>@item.AboutDetails1</td>
+            <td><a href="/About/AktivPassivStatus/@item.AboutID" class="@statusButton">@status</a></td>
+        </tr>
+    }
+</table>
+
+
+
+
+
+
+
+@*<table class="table table-bordered" >
+        <tr>
+            <th>ID</th>
+            <th>Haqqımda başlığı</th>
+            <th>Aktiv et</th>
+            <th>Passiv et</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AboutID</td>
+                <td>Başlıq</td>
+                <td><a href="" class="btn btn-warning">Aktiv et</a></td>
+                <td><a href="" class="btn btn-danger">Passiv et</a></td>
+
+            </tr>
+        }
+    </table>*@
+
+
+<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Yeni Haqqımızda Yazı Girişi
+</button>
+
+@Html.Action("AboutPartial", "About")
+
