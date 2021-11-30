@@ -1,8 +1,6 @@
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.CodeAnalysisLog.xml
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.lastcodeanalysissucceeded
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\DataAccessLayer\bin\Debug\EntityLayer.dll

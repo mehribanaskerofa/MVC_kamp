@@ -327,7 +327,11 @@
     <Content Include="AdminLTE-3.0.4\web\w3layouts-license.txt" />
     <Content Include="Content\PagedList.css" />
     <Content Include="image\Azerbaijan.jpg" />
+    <Content Include="image\c.jpeg" />
+    <Content Include="image\dia.jpg" />
+    <Content Include="image\sql.jpg" />
     <Content Include="image\Statistik.JPG" />
+    <Content Include="image\unec.jpg" />
     <Content Include="Scripts\demo.js" />
     <Content Include="AdminLTE-3.0.4\dist\js\pages\dashboard.js" />
     <Content Include="AdminLTE-3.0.4\dist\js\pages\dashboard2.js" />
@@ -2506,7 +2510,7 @@
     <Content Include="AdminLTE-3.0.4\web1\webfonts\fa-solid-900.ttf" />
     <Content Include="AdminLTE-3.0.4\web1\webfonts\fa-solid-900.woff" />
     <Content Include="AdminLTE-3.0.4\web1\webfonts\fa-solid-900.woff2" />
-    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\MexSozluk - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

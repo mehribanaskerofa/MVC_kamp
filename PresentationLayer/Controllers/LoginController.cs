@@ -34,7 +34,7 @@ namespace PresentationLayer.Controllers
             SHA1 sha1 = new SHA1CryptoServiceProvider();
             string password = admin.AdminPassword;
             string result = Convert.ToBase64String(sha1.ComputeHash(Encoding.UTF8.GetBytes(password)));
-          //  admin.AdminPassword = result;
+              admin.AdminPassword = result;
 
             //var loginvalues = lM.GetListBL();
             //var login = loginvalues.FirstOrDefault(x => x.AdminUserName == admin.AdminUserName && x.AdminPassword == admin.AdminPassword);
@@ -53,24 +53,25 @@ namespace PresentationLayer.Controllers
         [HttpGet]
         public ActionResult WriterLogin()
         {
-            var response = Request["g-recaptcha-response"];
-            const string secret = "6LfHFTwbAAAAAB53V5ZcixAgVCi2aTXIuF-eLxF9";
-            var client = new WebClient();
+          
 
-            var reply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
-            var captchaResponse = JsonConvert.DeserializeObject<CaptchaResponse>(reply);
-            if (captchaResponse.Success)
-            {
-                ViewBag.ErrorMessage = "İstifadəçi Adı vəya Şifrəniz səfdir!";
-                return View();
-            }
             return View();
         }
         [HttpPost]
         public ActionResult WriterLogin(Writer writer)
         {
-           
-            
+            var response = Request["g-recaptcha-response"];
+            const string secret = "6Ldb-WodAAAAAI9rHpIB0UOpjPxY_KG6-coYBKJm";
+            var client = new WebClient();
+
+            var reply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
+            var captchaResponse = JsonConvert.DeserializeObject<CaptchaResponse>(reply);
+            if (!captchaResponse.Success)
+            {
+                ViewBag.ErrorMessage = "İstifadəçi Adı vəya Şifrəniz səfdir!";
+                return View();
+            }
+
             //Context c = new Context();
             //var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
             var writeruserinfo = wlM.GetWriter(writer.WriterMail, writer.WriterPassword);

@@ -1,7 +1,5 @@
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.dll.CodeAnalysisLog.xml
-C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\BusinessLayer.dll.lastcodeanalysissucceeded
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\netstandard.dll
 C:\Users\DELL\Desktop\MVC_KAMP\PresentationLayer\BusinessLayer\bin\Debug\System.AppContext.dll

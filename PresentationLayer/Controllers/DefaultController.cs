@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace PresentationLayer.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         // GET: Default
